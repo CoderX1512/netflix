@@ -16,7 +16,9 @@ export const Inner = styled.div`
 export const Item = styled.div`
     color: white;
     margin-bottom: 10px;
+    margin: auto;
     max-width: 670px;
+    width: 100%;
 
     &:first-of-type {
         margin-top: 3rem;
@@ -44,7 +46,8 @@ export const Header = styled.div`
         }
     }
     @media (max-width: 600px){
-        width: 16px;
+        
+        
     }
 
 `;
